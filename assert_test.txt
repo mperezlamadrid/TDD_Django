@@ -1,0 +1,12 @@
+# assert: aserción de base que le permite escribir sus propias afirmaciones
+# assertEqual(a, b): comprobar a y b son iguales
+# assertNotEqual(a, b): comprobar a y b no son iguales
+# assertIn(a, b): Asegúrate de que a es en el punto b
+# assertNotIn(a, b): Comprobar que una no está en el punto b
+# assertFalse(a): compruebe que el valor de una es falsa
+# assertTrue(a): comprobar el valor de a es verdadera
+# assertIsInstance(a, TYPE): comprobar que una es de tipo "TIPO"
+# assertRaises(ERROR, a, args): Asegúrate de que cuando una se llama con argumentos que plantea ERROR
+
+pip install nose
+$ nosetests example_unit_test.py
